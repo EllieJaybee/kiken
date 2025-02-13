@@ -1,4 +1,4 @@
-<p align="center" style="font-size: xxx-large;"><b>kiken</b></p><p align="center">
+<p align="center" style="font-size: xxx-large;!important"><b>kiken</b></p><p align="center">
 <hr/>
 kiken is a Python wrapper for the Elite Dangerous Star Map (EDSM) API. It allows you to interact with the EDSM API asynchronously using `aiohttp`, making it easy to fetch data about systems, stations, markets, and more in the Elite Dangerous universe.
 </p>
@@ -35,4 +35,6 @@ asyncio.run(main())
 
 ## License
 
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+
+This project is not affiliated with the [Elite Dangerous Star Map](https://www.edsm.net/) project.
