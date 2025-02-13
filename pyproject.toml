@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kiken"
+dynamic = ["version"]
+authors = [{ name = "Enki", email = "admin@femboy.my" }]
+description = "A wrapper for EDSM (Elite Dangerous Star Map) API"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+    "Topic :: Games/Entertainment",
+]
+keywords = [
+    "EDSM",
+    "Elite Dangerous",
+    "API",
+    "wrapper",
+    "Elite Dangerous Star Map",
+    "kiken",
+    "asyncio",
+    "async",
+    "aiohttp",
+]
+license = "GPL-3.0"
+license-files = ["LICENSE"]
+dependencies = ["aiohttp"]
+
+[project.urls]
+Homepage = "https://femboy.my"
+Issues = "https://github.com/EllieJaybee/kiken/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen"
+Source = "https://github.com/EllieJaybee/kiken"
+
+[tool.hatch.version]
+path = "src/kiken/__about__.py"
