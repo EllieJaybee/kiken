@@ -13,7 +13,7 @@ kiken is a Python wrapper for the Elite Dangerous Star Map (EDSM) API. It allows
 ## Installation
 
 ```sh
-pip install --upgrade git+https://github.com/EllieJaybee/kiken.git
+pip install --upgrade kiken
 ```
 
 ## Usage
